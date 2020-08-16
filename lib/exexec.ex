@@ -180,7 +180,7 @@ defmodule Exexec do
   Start `Exexec` and link to calling process.
   """
   @spec start_link :: {:ok, pid} | {:error, any}
-  def start_link(), do: start_link([])
+  def start_link, do: start_link([])
 
   @doc """
   Start `Exexec` with `options` and link to calling process.
